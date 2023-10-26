@@ -1,0 +1,4 @@
+admin,Alamin Miah,alamin@gmail.com,12345
+user,Obaidul,obaidul@gmail.com,12345
+user,Ahsan,ahsan@gmail.com,12345
+manager,Liton,litonkhan@gmail.com,12345
