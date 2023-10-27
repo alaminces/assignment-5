@@ -22,7 +22,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 		<div class="container mt-5">
 			<div class="row">
 				<div class="col-md-3"></div>
-				<div class="col-md-6 p-4">
+				<div class="col-md-6 p-4 border">
 					<h3 class="text-center">Registration System</h3>
 					<span class="text-danger"><?php echo $errorMsg; ?></span>
 					<form action="registration.php" method="post">

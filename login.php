@@ -23,11 +23,10 @@ if ( $_SERVER['REQUEST_METHOD']=='POST' ) {
 		<div class="container mt-5">
 			<div class="row">
 				<div class="col-md-3"></div>
-				<div class="col-md-6 p-4">
+				<div class="col-md-6 p-4 border ">
 					<h3 class="text-center">Login System</h3>
 					<span class="text-danger"><?php echo $errorMsg; ?></span>
 					<form action="login.php" method="post">
-
 					  <div class="mb-3">
 						<label for="email" class="form-label">Email address</label>
 						<input type="email" name="email" class="form-control" id="email" >
@@ -41,6 +40,12 @@ if ( $_SERVER['REQUEST_METHOD']=='POST' ) {
 					  <button type="submit" class="btn btn-primary">Login</button>
 					  <p>If you don't have account? <a href="registration.php">Create Account</a></p>
 					</form>
+					<p>Admin E-mail : alamin@gmail.com</p>
+					<p>Admin Password : 12345</p>
+					<p>Manager E-mail : ahsan@gmail.com</p>
+					<p>Manager Password : 12345</p>
+					<p>User E-mail : litonkhan@gmail.com</p>
+					<p>User Password : 12345</p>
 				</div>
 			</div>
 			
